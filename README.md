@@ -1,6 +1,6 @@
 # Diagrama_Guardia_Imperial
 ## Enunciado
-El adeptus Administratum tiene un problema grave respecto a la organización del ejercito de la Guardia Imperial destinado en Cadia.<br>
+El adeptus Administratum tiene un problema grave respecto a la organización del ejercito de la Guardia Imperial destinado en Cadia. Si nos atacan las tropas enemigas, estaremos acabados sin organización.<br>
 Por lo tanto necesitamos un sistema para volver a organizarlos, por rangos y cargos en el planeta del sistema Cadiano, además de los vehiculos. Debemos de crear una clase *Persona*, *Vehiculo* y *regimiento* principalmente. En el que derivaremos los soldados, oficiales y estado mayor a *Persona* (estos tambien seran clases). En *Vehiculo* tenemos que crear clases relacionadas con los vehiculos blindados, ligeros y aéreos. No hay que olvidar que la clase Ingeniero es *Persona*.<br>
 Varios soldados ocupan un solo regimiento, un oficial ocupa un regimiento, varios vehiculos pueden estar en un regimiento y un solo miembro del estado mayor puede dirigir a varios oficiales.<br>
 Cada clase tiene unos atributos:
